@@ -18,5 +18,6 @@ namespace GiottoControllers.Models
 
         [Required]
         public string Allergy { get; set; }
+        public string Title { get; set; }
     }
 }
